@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  position: relative;
+  width: 100%;
+  color: #000; }
+
+body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+ }
+ 
+
+  .mainblock{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(24, 24, 24, 1);
+    position: fixed;
+    top: 0;
+}
+
+  .header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+  .header__list li{
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  .header__list li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.header__link_btn{
+    color: rgba(24, 24, 24, 1);
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.mainblock__content {
+    max-width: 600px;
+    text-align: center;
+ 
+}
+
+.mainblock__title {
+    font-size: 54px;
+    line-height: 60px;
+    padding: 10px;
+}
+.mainblock__text {
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.infoLine {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    margin: 0 40px 20px 0;
+    font-size: 12px;
+    justify-content: end;
+    align-items: start;
+}
+.infoLine__content {
+    display: flex;
+}
+
+.infoLine__item{
+    padding: 0 10px;
+}
+
